@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+<title>Select Type of Man</title>
+ 
+ 
+<meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+ 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+
+<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+
+<body id="wholeThing">
+
+<div class="jumbotron" id="header">
+  
+
+ <h1>Showing Different Categories of Man</h1>
+ 
+ <h4>Click Given Below buttons for veiwing Giphys of Man of Different Categories<br>If you want to stop or pause any giphy then just click on giphy<br>If Desired Man Category is not available, then create your own button!</h4>
+</div>
+
+
+
+<form class="form-inline" id="ManSearch">
+ 
+ <div class="form-group">
+   
+ <label for="ManInput">Create Your Desired Button</label>
+  
+  <input type="text" id="ManInput">
+  </div>
+ 
+ <!-- Button triggers show to be added -->
+  
+<input id="addShow" type="submit" value="submit">
+</form>
+
+
+<div class="row">
+  <div class="container">
+   
+ <div class="btn-group inline pull-left">
+ 
+   
+<button class="btn btn-primary" id="show" data-search="Cool Man">Cool Man</button>
+  
+<button class="btn btn-primary" id="show" data-search="Angery Man">Angery Man</button>
+      
+<button class="btn btn-primary" id="show" data-search="Good Man">Good Man</button>
+      
+<button class="btn btn-primary" id="show" data-search="Lovely Man">Lovely Man</button>
+
+      
+<button class="btn btn-primary" id="show" data-search="Beautiful Man">Beautiful Man</button>
+<button class="btn btn-primary" id="show" data-search="Single Man">Single Man</button>
+<button class="btn btn-primary" id="show" data-search="Married Man">Married Man</button>
+<button class="btn btn-primary" id="show" data-search="Intellegent Man">Intellegent Man</button>
+<button class="btn btn-primary" id="show" data-search="Poor Man">Poor Man</button>
+<button class="btn btn-primary" id="show" data-search="Rich Man">Rich Man</button>
+
+
+<div id="myButtons"></div>
+    </div> <!--end of button group -->
+  </div> <!--end of container -->
+</div> <!--end of row -->
+
+
+<div class="row">
+  <div class="container">
+      <span><div id="gifArea"></div></span>
+  </div> <!--end of container -->
+</div> <!-- end of row  -->
+
+
+<script type="text/javascript" src="js/javascript/jscript.js"</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+</html>
